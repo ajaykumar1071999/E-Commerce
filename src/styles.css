@@ -3,5 +3,12 @@
   text-align: center;
 }
 .nav_bar_wrapper a {
-  padding-left: 20px;
+  text-decoration: none;
+  color: #f2f3f4;
+  padding: 20px;
+}
+.nav_bar_wrapper a:hover {
+  padding: 20px;
+  background-color: #111;
+  color: #82e0aa;
 }
