@@ -2,3 +2,6 @@
   font-family: sans-serif;
   text-align: center;
 }
+.nav_bar_wrapper a {
+  padding-left: 20px;
+}
