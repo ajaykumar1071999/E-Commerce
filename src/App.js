@@ -5,6 +5,7 @@ import AddProduct from "./Components/AddProduct/AddProduct";
 import Login from "./Components/Login/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UpdateProduct from "./Components/UpdateProduct/UpdateProduct";
+import Table from "./Components/Table/Table";
 export default function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/add" element={<AddProduct />}></Route>
           <Route path="/update" element={<UpdateProduct />}></Route>
           <Route path="/Login" element={<Login />}></Route>
+          <Route path="/Table" element={<Table />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

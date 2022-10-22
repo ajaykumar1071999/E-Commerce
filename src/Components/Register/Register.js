@@ -3,9 +3,9 @@ import { useState } from "react";
 function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [mobile, setMobile] = useState("");
   function GetData(e) {
-    console.log(name, email, password);
+    console.log(name, email, mobile);
   }
   return (
     <div className="col-sm-6 offset-sm-3">
@@ -30,11 +30,11 @@ function Register() {
       />
       <br />
       <input
-        type="password"
-        name="password"
+        type="text"
+        name="mobile"
         className="form-control"
         onChange={(e) => {
-          setPassword(e.target.value);
+          setMobile(e.target.value);
         }}
       />
       <br />

@@ -9,6 +9,7 @@ function Head() {
           <Link to="/add">Add Product</Link>
           <Link to="/update">Update Products</Link>
           <Link to="/Register">Register</Link>
+          <Link to="/Table">Table</Link>
           <Link to="/Login">Login</Link>
         </Nav>
       </Navbar>
