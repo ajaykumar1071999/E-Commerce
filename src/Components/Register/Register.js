@@ -5,49 +5,64 @@ function Register() {
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
 
-  function GetData() {
-    // localStorage.setItem("name", JSON.stringify(name));
-    // localStorage.setItem("email", JSON.stringify(email));
-    // localStorage.setItem("mobile", JSON.stringify(mobile));
-
+  function GetData(e) {
+    localStorage.setItem("Name", name);
+    localStorage.setItem("Email", email);
+    localStorage.setItem("Mobile", mobile);
     console.log(name, email, mobile);
+    e.preventDefault();
   }
-
+  function nameHander(e) {
+    let name = e.target.value;
+  }
   return (
     <>
       <div className="col-sm-6 offset-sm-3">
         <h1>User Registration Form</h1>
-
-        <input
-          type="text"
-          name="name"
-          className="form-control"
-          onChange={(e) => {
-            setName(e.target.value);
-          }}
-        />
-        <br />
-        <input
-          type="text"
-          name="email"
-          className="form-control"
-          onChange={(e) => {
-            setEmail(e.target.value);
-          }}
-        />
-        <br />
-        <input
-          type="text"
-          name="mobile"
-          className="form-control"
-          onChange={(e) => {
-            setMobile(e.target.value);
-          }}
-        />
-        <br />
-        <button className="btn btn-primary" onClick={GetData}>
-          Submit
-        </button>
+        <form onSubmit={GetData}>
+          <input
+            type="text"
+            name="name"
+            value={name}
+            className="form-control"
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
+          />
+          {name.length > 3 ? (
+            <span style={{ color: "Green" }}>Good</span>
+          ) : (
+            <span style={{ color: "Red" }}>Not Good</span>
+          )}
+          <br />
+          <input
+            type="text"
+            name="email"
+            value={email}
+            className="form-control"
+            onChange={(e) => {
+              setEmail(e.target.value);
+            }}
+          />
+          {email.length > 3 ? (
+            <span style={{ color: "Green" }}>Good</span>
+          ) : (
+            <span style={{ color: "Red" }}>Not Good</span>
+          )}
+          <br />
+          <input
+            type="text"
+            name="mobile"
+            value={mobile}
+            className="form-control"
+            onChange={(e) => {
+              setMobile(e.target.value);
+            }}
+          />
+          {mobile.length}
+          <br />
+          <button className="btn btn-primary">Submit</button>
+        </form>
       </div>
     </>
   );

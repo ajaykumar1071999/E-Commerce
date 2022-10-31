@@ -9,6 +9,7 @@ function Head() {
           <Link to="/Register">Register</Link>
           <Link to="/Login">Login</Link>
           <Link to="/Table">Table</Link>
+          <Link To="/">{localStorage.getItem("Name")}</Link>
         </Nav>
       </Navbar>
     </div>

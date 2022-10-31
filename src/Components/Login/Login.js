@@ -10,7 +10,7 @@ function Login() {
 
   return (
     <div className="col-sm-6 offset-sm-3">
-      <h1>LogIn Form</h1>
+      <h1>Log in Form</h1>
 
       <input
         type="text"
@@ -29,7 +29,7 @@ function Login() {
           setPassword(e.target.value);
         }}
       />
-      <button className="btn btn-success" onClick={signIn}>
+      <button className="btn btn-success form-control" onClick={signIn}>
         Login
       </button>
     </div>
