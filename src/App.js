@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UpdateProduct from "./Components/UpdateProduct/UpdateProduct";
 import Table from "./Components/Table/Table";
 import Footer from "./Components/Footer/Footer";
+import Test from "./Test";
 export default function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/Login" element={<Login />}></Route>
           <Route path="/Table" element={<Table />}></Route>
         </Routes>
+
         <Footer />
       </BrowserRouter>
     </div>

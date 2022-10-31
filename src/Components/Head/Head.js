@@ -6,11 +6,9 @@ function Head() {
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#Home">Navbar</Navbar.Brand>
         <Nav className="mr-auto nav_bar_wrapper">
-          <Link to="/add">Add Product</Link>
-          <Link to="/update">Update Products</Link>
           <Link to="/Register">Register</Link>
-          <Link to="/Table">Table</Link>
           <Link to="/Login">Login</Link>
+          <Link to="/Table">Table</Link>
         </Nav>
       </Navbar>
     </div>
