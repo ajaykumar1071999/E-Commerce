@@ -7,7 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UpdateProduct from "./Components/UpdateProduct/UpdateProduct";
 import Table from "./Components/Table/Table";
 import Footer from "./Components/Footer/Footer";
-import Test from "./Test";
+import UserInfo from "./Components/UserInfo/UserInfo";
+
 export default function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/update" element={<UpdateProduct />}></Route>
           <Route path="/Login" element={<Login />}></Route>
           <Route path="/Table" element={<Table />}></Route>
+          <Route path="/UserInfo" element={<UserInfo />}></Route>
         </Routes>
 
         <Footer />

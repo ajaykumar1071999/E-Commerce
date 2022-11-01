@@ -3,15 +3,27 @@ import { Link } from "react-router-dom";
 function Head() {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#Home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto nav_bar_wrapper">
-          <Link to="/Register">Register</Link>
-          <Link to="/Login">Login</Link>
-          <Link to="/Table">Table</Link>
-          <Link To="/">{localStorage.getItem("Name")}</Link>
-        </Nav>
-      </Navbar>
+      {localStorage.getItem("Name") ? (
+        <>
+          <Navbar bg="dark" variant="dark">
+            <Navbar.Brand href="/">Navbar</Navbar.Brand>
+            <Nav className="mr-auto nav_bar_wrapper">
+              <Link to="/Table">Table</Link>
+              <Link to="/UserInfo">{localStorage.getItem("Name")}</Link>
+            </Nav>
+          </Navbar>
+        </>
+      ) : (
+        <>
+          <Navbar bg="dark" variant="dark">
+            <Navbar.Brand href="#Home">Navbar</Navbar.Brand>
+            <Nav className="mr-auto nav_bar_wrapper">
+              <Link to="/Register">Register</Link>
+              <Link to="/Login">Login</Link>
+            </Nav>
+          </Navbar>
+        </>
+      )}
     </div>
   );
 }
