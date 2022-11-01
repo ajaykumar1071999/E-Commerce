@@ -9,7 +9,13 @@ function Head() {
             <Navbar.Brand href="/">Navbar</Navbar.Brand>
             <Nav className="mr-auto nav_bar_wrapper">
               <Link to="/Table">Table</Link>
-              <Link to="/UserInfo">{localStorage.getItem("Name")}</Link>
+              <Link to="/UserInfo">
+                <span>
+                  <i className="fa fa-user" style={{ fontSize: "20px" }}></i>
+                </span>
+                &nbsp;&nbsp;
+                {localStorage.getItem("Name")}
+              </Link>
             </Nav>
           </Navbar>
         </>
