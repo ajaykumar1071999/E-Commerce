@@ -10,59 +10,82 @@ function Register() {
     localStorage.setItem("Email", email);
     localStorage.setItem("Mobile", mobile);
     console.log(name, email, mobile);
-    e.preventDefault();
   }
-  function nameHander(e) {
-    let name = e.target.value;
-  }
+
   return (
     <>
       <div className="col-sm-6 offset-sm-3">
         <h1>User Registration Form</h1>
-        <form onSubmit={GetData}>
-          <input
-            type="text"
-            name="name"
-            value={name}
-            className="form-control"
-            onChange={(e) => {
-              setName(e.target.value);
-            }}
-          />
-          {name.length > 3 ? (
-            <span style={{ color: "Green" }}>Good</span>
-          ) : (
-            <span style={{ color: "Red" }}>Not Good</span>
-          )}
-          <br />
-          <input
-            type="text"
-            name="email"
-            value={email}
-            className="form-control"
-            onChange={(e) => {
-              setEmail(e.target.value);
-            }}
-          />
-          {email.length > 3 ? (
-            <span style={{ color: "Green" }}>Good</span>
-          ) : (
-            <span style={{ color: "Red" }}>Not Good</span>
-          )}
-          <br />
-          <input
-            type="text"
-            name="mobile"
-            value={mobile}
-            className="form-control"
-            onChange={(e) => {
-              setMobile(e.target.value);
-            }}
-          />
-          {mobile.length}
-          <br />
-          <button className="btn btn-primary">Submit</button>
-        </form>
+
+        <input
+          type="text"
+          name="name"
+          value={name}
+          className="form-control"
+          onChange={(e) => {
+            setName(e.target.value);
+          }}
+        />
+        {name.length >= 4 ? (
+          <>
+            <span style={{ color: "Green" }}>
+              <i className="fa fa-check"></i>
+            </span>{" "}
+          </>
+        ) : (
+          <>
+            <span style={{ color: "Red" }}>Enter Your Name</span>
+          </>
+        )}
+        <br />
+        <input
+          type="text"
+          name="email"
+          value={email}
+          className="form-control"
+          onChange={(e) => {
+            setEmail(e.target.value);
+          }}
+        />
+        {email.length >= 10 ? (
+          <>
+            <span style={{ color: "Green" }}>
+              <i className="fa fa-check"></i>
+            </span>
+          </>
+        ) : (
+          <>
+            <span style={{ color: "Red" }}>Enter Your Email Address</span>
+          </>
+        )}
+        <br />
+        <input
+          type="text"
+          name="mobile"
+          value={mobile}
+          className="form-control"
+          onChange={(e) => {
+            setMobile(e.target.value);
+          }}
+        />
+        {mobile.length >= 10 ? (
+          <>
+            <span>
+              <i style={{ color: "green" }} className="fa fa-check"></i>
+            </span>
+          </>
+        ) : (
+          <>
+            <span style={{ color: "Red" }}>Enter Your Mobile No.</span>
+          </>
+        )}
+        <br />
+        <button className="btn btn-primary" type="submit" onClick={GetData}>
+          Submit
+        </button>
+        {name.length == null && email.length == null && mobile.length == null
+          ? alert("Please Enter Details")
+          : ""}
       </div>
     </>
   );
