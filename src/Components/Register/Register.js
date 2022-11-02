@@ -12,9 +12,7 @@ function Register() {
   });
   function GetData(e) {
     e.preventDefault();
-    localStorage.setItem("Name", name);
-    localStorage.setItem("Email", email);
-    localStorage.setItem("Mobile", mobile);
+
     console.log(name, email, mobile);
   }
 
