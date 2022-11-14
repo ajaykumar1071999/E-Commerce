@@ -20,4 +20,8 @@
     display: block;
     background-color: goldenrod;
   }
+  .font > a {
+    width: 100%;
+    display: block;
+  }
 }
