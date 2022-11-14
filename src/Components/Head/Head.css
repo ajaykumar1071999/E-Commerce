@@ -1,23 +1,17 @@
-.col-container {
+.container {
   display: table;
   width: 100%;
 }
-.col {
+.link-container {
+  text-decoration: none;
   display: table-cell;
   padding: 10px;
   background-color: gold;
 }
-
-.font {
-  font-size: 30px;
-}
-.font > a {
-  padding: 20px;
-}
 @media screen and (max-width: 375px) {
-  .col {
+  .link-container {
     width: 100%;
     display: block;
-    background-color: goldenrod;
+    background-color: #88ddee;
   }
 }

@@ -1,5 +1,6 @@
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./Head.css";
 function Head() {
   const months = [
     "January",
@@ -26,13 +27,19 @@ function Head() {
     <div>
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="/">Navbar</Navbar.Brand>
-        <Nav className="mr-auto nav_bar_wrapper">
-          <Link to="/Table">Table</Link>
+        <Nav className="container">
+          <Link to="/Table" className="link-container">
+            Table
+          </Link>
 
-          <Link to="/Register">Register</Link>
-          <Link to="/Login">Login</Link>
-          <Link> Date :-{month}</Link>
-          <Link> Time :-{showTime}</Link>
+          <Link to="/Register" className="link-container">
+            Register
+          </Link>
+          <Link to="/Login" className="link-container">
+            Login
+          </Link>
+          <Link className="link-container"> Date :-{month}</Link>
+          <Link className="link-container"> Time :-{showTime}</Link>
         </Nav>
       </Navbar>
     </div>
