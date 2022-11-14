@@ -5,7 +5,8 @@
 .col {
   display: table-cell;
   padding: 10px;
-  background-color: gold;
+  background-color: #111;
+  color: aliceblue;
 }
 
 .font {
@@ -18,7 +19,8 @@
   .col {
     width: 100%;
     display: block;
-    background-color: goldenrod;
+    background-color: #111;
+    color: aliceblue;
   }
   .font > a {
     width: 100%;
