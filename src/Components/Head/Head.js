@@ -1,6 +1,7 @@
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Head.css";
+import logo from "../Images/1.png";
 function Head() {
   const months = [
     "January",
@@ -25,23 +26,66 @@ function Head() {
 
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="/">Navbar</Navbar.Brand>
-        <Nav className="container">
-          <Link to="/Table" className="link-container">
-            Table
-          </Link>
+      <div className="container">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <div>
+            <img src={logo} />
+          </div>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-          <Link to="/Register" className="link-container">
-            Register
-          </Link>
-          <Link to="/Login" className="link-container">
-            Login
-          </Link>
-          <Link className="link-container"> Date :-{month}</Link>
-          <Link className="link-container"> Time :-{showTime}</Link>
-        </Nav>
-      </Navbar>
+          <div
+            className="collapse navbar-collapse"
+            style={{ marginRight: "10px" }}
+          >
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Courses
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Consultations
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Activities
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Events
+                </a>
+              </li>
+              <li className="nav-item">
+                <a class="nav-link" href="#">
+                  Carers
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Home
+                </a>
+              </li>
+              <li>
+                <button className="btn btn-outline-danger">Get Support</button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
   );
 }

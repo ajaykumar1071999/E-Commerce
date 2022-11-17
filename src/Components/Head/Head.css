@@ -15,3 +15,8 @@
     background-color: #88ddee;
   }
 }
+
+img {
+  height: 15vh;
+  width: 100%;
+}
