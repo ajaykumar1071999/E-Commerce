@@ -8,6 +8,7 @@ import UpdateProduct from "./Components/UpdateProduct/UpdateProduct";
 import Table from "./Components/Table/Table";
 import Footer from "./Components/Footer/Footer";
 import UserInfo from "./Components/UserInfo/UserInfo";
+import Carousel from "./Components/Carousel/Carousel";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/Table" element={<Table />}></Route>
           <Route path="/UserInfo" element={<UserInfo />}></Route>
         </Routes>
+        <Carousel />
 
         <Footer />
       </BrowserRouter>
