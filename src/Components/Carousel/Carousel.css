@@ -1,11 +1,15 @@
 .section {
+  position: relative;
   height: 70vh;
   width: 100%;
   border: 1px solid red;
   background-color: #90ddf0;
 }
-.section > .carousel_backimg {
-  display: absolute;
-  position: right;
-  height: 10vh;
+.section1 {
+  position: absolute;
+  top: 30vh;
+  right: 0;
+  width: 500px;
+  height: 50vh;
+  border: 3px solid #73ad21;
 }

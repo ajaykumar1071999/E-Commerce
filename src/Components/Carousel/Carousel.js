@@ -3,17 +3,23 @@ import backimg from "../Images/2.svg";
 function Carousel() {
   return (
     <>
-      <section
-        className="section"
-        style={{
-          backgroundImage: `url(${backimg})`,
-          backgroundRepeat: "no-repeat",
-          position: "covered"
-        }}
-      >
-        <div>
-          <div></div>
-        </div>
+      <section>
+        <div
+          className="section"
+          style={{
+            backgroundImage: `url(${backimg})`,
+            backgroundRepeat: "no-repeat",
+            position: "covered"
+          }}
+        ></div>
+        <div
+          className="section1"
+          style={{
+            backgroundImage: `url(${backimg})`,
+            backgroundRepeat: "no-repeat",
+            position: "covered"
+          }}
+        ></div>
       </section>
     </>
   );
