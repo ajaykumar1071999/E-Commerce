@@ -11,5 +11,11 @@
   right: 0;
   width: 500px;
   height: 50vh;
-  border: 3px solid #73ad21;
+}
+.section2 {
+  position: absolute;
+  top: 30vh;
+  left: 0;
+  width: 500px;
+  height: 50vh;
 }
