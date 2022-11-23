@@ -1,21 +1,16 @@
-.section {
+div.relative {
+  border: solid 2px #73ad21;
+  background-color: #b6e5f6;
   position: relative;
-  height: 70vh;
   width: 100%;
-  border: 1px solid red;
-  background-color: #90ddf0;
+  height: 450px;
 }
-.section1 {
+
+div.absolute {
   position: absolute;
-  top: 30vh;
+  top: 20px;
   right: 0;
-  width: 500px;
-  height: 50vh;
-}
-.section2 {
-  position: absolute;
-  top: 30vh;
-  left: 0;
-  width: 500px;
-  height: 50vh;
+  width: 600px;
+  height: 350px;
+  /* border: 3px solid #73ad21; */
 }

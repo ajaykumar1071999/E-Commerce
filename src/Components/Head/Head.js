@@ -26,8 +26,8 @@ function Head() {
 
   return (
     <div>
-      <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="flex-container">
+        <nav className="navbar navbar-expand-lg">
           <div>
             <img src={logo} />
           </div>
@@ -43,44 +43,43 @@ function Head() {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div
-            className="collapse navbar-collapse"
-            style={{ marginRight: "10px" }}
-          >
+          <div className="collapse navbar-collapse">
             <ul className="navbar-nav">
-              <li className="nav-item">
+              <li className="nav-item navigation">
                 <a className="nav-link" href="#">
-                  Courses
+                  Home
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item navigation">
                 <a className="nav-link" href="#">
                   Consultations
                 </a>
               </li>
 
-              <li className="nav-item">
+              <li className="nav-item navigation">
                 <a className="nav-link" href="#">
                   Activities
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item navigation">
                 <a className="nav-link" href="#">
                   Events
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item navigation">
                 <a class="nav-link" href="#">
                   Carers
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item navigation">
                 <a className="nav-link" href="#">
-                  Home
+                  Courses
                 </a>
               </li>
               <li>
-                <button className="btn btn-outline-danger">Get Support</button>
+                <button className="btn btn-outline-danger navigation">
+                  Get Support
+                </button>
               </li>
             </ul>
           </div>

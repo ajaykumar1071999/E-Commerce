@@ -1,22 +1,35 @@
-.container {
-  display: table;
+.flex-container {
+  display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
-.link-container {
+.flex-container > div {
   text-decoration: none;
-  display: table-cell;
-  padding: 10px;
-  background-color: gold;
+  width: 100px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container div ul li {
+  padding: 20px;
 }
 @media screen and (max-width: 375px) {
-  .link-container {
+  .flex-container {
     width: 100%;
     display: block;
-    background-color: #88ddee;
+  }
+}
+@media screen and (max-width: 991px) {
+  .flex-container {
+    width: 100%;
+    display: block;
   }
 }
 
 img {
-  height: 15vh;
+  height: 10vh;
   width: 100%;
 }
