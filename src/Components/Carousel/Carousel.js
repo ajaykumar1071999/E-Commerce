@@ -7,41 +7,36 @@ function Carousel() {
   return (
     <>
       <section>
-        {/* <div class="relative">
-          <div
-            class="absolute"
-            style={{
-              backgroundImage: `url(${backimg})`,
-              backgroundRepeat: "no-repeat"
-            }}
-          ></div>
-          <div
-            class="absolute"
-            style={{
-              backgroundImage: `url(${backimg1})`,
-              backgroundRepeat: "no-repeat",
-              top: "59.5%"
-            }}
-          ></div>
-        </div> */}
         <div className="d-flex justify-content-between relative">
+          {/* first container */}
           <div
             className=""
             style={{
-              width: "50%",
+              width: "60%",
               backgroundImage: `url(${backimg2})`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "contain"
             }}
-          ></div>
+          >
+            {/* first-sub-container */}
+            <div className="first-sub-container">
+              <h3 style={{ fontWieght: "900" }}>
+                Your partner in the key moments of your parenting journey
+              </h3>
+              <p>
+                Helping parents thrive by reimagining access to life-changing{" "}
+              </p>
+            </div>
+          </div>
+
+          {/* second container */}
 
           <div
             style={{
               width: "50%",
               backgroundImage: `url(${backimg})`,
               backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
               backgroundSize: "contain"
             }}
           ></div>
