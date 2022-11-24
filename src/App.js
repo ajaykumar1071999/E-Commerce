@@ -9,7 +9,7 @@ import Table from "./Components/Table/Table";
 import Footer from "./Components/Footer/Footer";
 import UserInfo from "./Components/UserInfo/UserInfo";
 import Carousel from "./Components/Carousel/Carousel";
-import Carousel1 from "./Components/Carousel1/Carousel1";
+// import Carousel1 from "./Components/Carousel1/Carousel1";
 
 export default function App() {
   return (
@@ -25,7 +25,7 @@ export default function App() {
           <Route path="/UserInfo" element={<UserInfo />}></Route>
         </Routes>
         <Carousel />
-        <Carousel1 />
+        {/* <Carousel1 /> */}
 
         <Footer />
       </BrowserRouter>
