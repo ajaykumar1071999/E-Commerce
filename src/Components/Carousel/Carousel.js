@@ -27,6 +27,21 @@ function Carousel() {
               <p>
                 Helping parents thrive by reimagining access to life-changing{" "}
               </p>
+              {/* First-sub-sub-container  */}
+              <div className="first-sub-sub-container d-flex justify-content-around">
+                <div>
+                  200+
+                  <pre>Experts</pre>
+                </div>
+                <div>
+                  200+
+                  <pre>Carers</pre>
+                </div>
+                <div>
+                  200+k
+                  <pre>Users</pre>
+                </div>
+              </div>
             </div>
           </div>
 

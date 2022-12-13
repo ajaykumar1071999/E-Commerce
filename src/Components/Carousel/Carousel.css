@@ -4,7 +4,6 @@ div.relative {
   height: 400px;
 }
 .first-sub-container {
-  border: solid 1px red;
   margin-left: 23%;
   margin: 10%;
 }
@@ -17,4 +16,12 @@ div.relative {
   border: solid red 1px;
 
   width: 100%;
+}
+.first-sub-sub-container {
+  border: solid red 1px;
+  width: 400px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #005072;
 }
