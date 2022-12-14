@@ -31,3 +31,10 @@ div.relative {
     display: none;
   }
 }
+@media screen and (min-width: 600px) {
+  section > .d-flex > div {
+    width: 100% !important;
+    margin: 0px;
+    /* padding: 50px 0 0 50px; */
+  }
+}

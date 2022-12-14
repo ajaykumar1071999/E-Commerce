@@ -44,7 +44,7 @@ function Carousel() {
               </div>
               <button
                 className="btn btn-outline-danger"
-                style={{ width: "200px", marginTop: "15px", height: "50px" }}
+                style={{ width: "200px" }}
               >
                 Get Support
               </button>
