@@ -3,10 +3,7 @@ div.relative {
   border: solid 1px red;
   height: 400px;
 }
-.first-sub-container {
-  margin-left: 23%;
-  margin: 10%;
-}
+
 .first-sub-container h3 {
   font-weight: bold;
   font-size: 35px;
@@ -14,26 +11,23 @@ div.relative {
 }
 .second-sub-container {
   border: solid red 1px;
-
   width: 100%;
 }
 .first-sub-sub-container {
-  width: 400px;
-  height: 55px;
   font-weight: bold;
   font-size: 20px;
   color: #005072;
 }
 @media screen and (max-width: 600px) {
-  section .d-flex {
+  section > .d-flex {
     display: block !important;
   }
-  section .d-flex div {
+  section .d-flex > div {
     width: 100% !important;
     margin: 0px;
     padding: 10px;
   }
-  section .d-flex div:nth-child(2) {
+  section > .d-flex > div:nth-child(2) {
     display: none;
   }
 }
