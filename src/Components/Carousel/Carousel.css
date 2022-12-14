@@ -24,3 +24,16 @@ div.relative {
   font-size: 20px;
   color: #005072;
 }
+@media screen and (max-width: 600px) {
+  section .d-flex {
+    display: block !important;
+  }
+  section .d-flex div {
+    width: 100% !important;
+    margin: 0px;
+    padding: 10px;
+  }
+  section .d-flex div:nth-child(2) {
+    display: none;
+  }
+}
