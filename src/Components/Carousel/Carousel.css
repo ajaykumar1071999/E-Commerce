@@ -1,9 +1,11 @@
 div.relative {
   background-color: #b6e5f6;
   border: solid 1px red;
-  height: 400px;
+  min-height: 400px;
 }
-
+.first-sub-container {
+  padding: 80px 0px 0px 86px;
+}
 .first-sub-container h3 {
   font-weight: bold;
   font-size: 35px;
@@ -21,11 +23,11 @@ div.relative {
 @media screen and (max-width: 600px) {
   section > .d-flex {
     display: block !important;
+    padding-bottom: 30px;
   }
   section .d-flex > div {
     width: 100% !important;
     margin: 0px;
-    padding: 10px;
   }
   section > .d-flex > div:nth-child(2) {
     display: none;
@@ -36,5 +38,10 @@ div.relative {
     width: 100% !important;
     margin: 0px;
     /* padding: 50px 0 0 50px; */
+  }
+}
+@media screen and (max-width: 600px) {
+  .first-sub-container {
+    padding: 81px 8px 0px 25px;
   }
 }
