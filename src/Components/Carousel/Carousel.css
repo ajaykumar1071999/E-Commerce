@@ -20,6 +20,20 @@ div.relative {
   font-size: 20px;
   color: #005072;
 }
+.second-section h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #005072;
+  margin-left: 5%;
+}
+.second-section-slider {
+  border: solid red 2px;
+  margin-left: 5%;
+  width: 90%;
+  height: 400px;
+  background-color: #b6e5f1;
+}
+
 @media screen and (max-width: 600px) {
   section > .d-flex {
     display: block !important;

@@ -55,12 +55,19 @@ function Carousel() {
 
           <div
             style={{
-              width: "50%",
               backgroundImage: `url(${backimg})`,
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "contain"
+              backgroundRepeat: "no-repeat"
             }}
           ></div>
+        </div>
+
+        {/* Second Section */}
+
+        <div className="second-section">
+          <div className="second-section-text">
+            <h1>Trending On Tllid</h1>
+          </div>
+          <div className="second-section-slider"></div>
         </div>
       </section>
     </>
