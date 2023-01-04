@@ -20,12 +20,55 @@ div.relative {
   font-size: 20px;
   color: #005072;
 }
-.second-section h1 {
+.even-section
+{
+  margin-top: 80px;
+}
+.heading-tittle .badge-tittle{
+  width:11px;
+  height: 70px;
+  border-radius: 6px;
+  background-color: #ef6696;
+}
+.heading-tittle h2{
+  color:#005072;
+  font-size:32px;
+  font-weight:700;
+  padding-left:10px;
+}
+.slider-content{
+  
+  background-color: #b6e5f1;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+.badge{
+  display: relative;
+  position: absolute;
+  border: solid 1px #fff;
+  border-radius: 10px 0,0,0;
+  border-top: 0px;
+  border-left: 0px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #ef6696;
+  z-index: 1;
+}
+.slider-content .video-content{
+
+}
+
+
+.second-section-text h1 {
   font-weight: bold;
   font-size: 40px;
   color: #005072;
   margin-left: 5%;
 }
+
 .second-section-slider {
   border: solid red 2px;
   margin-left: 5%;

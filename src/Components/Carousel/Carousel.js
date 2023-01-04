@@ -9,11 +9,7 @@ function Carousel() {
       <section>
         <div className="d-flex justify-content-between relative">
           {/* first container */}
-          <div
-            className=""
-            style={{
-              width: "60%",
-              backgroundImage: `url(${backimg2})`,
+          <div className="" style={{width: "60%", backgroundImage: `url(${backimg2})`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "contain"
@@ -60,14 +56,29 @@ function Carousel() {
             }}
           ></div>
         </div>
-
+</section>
         {/* Second Section */}
 
-        <div className="second-section">
-          <div className="second-section-text">
-            <h1>Trending On Tllid</h1>
+        <section className="even-section">
+        <div className="container">
+          <div className="heading-tittle d-flex align-items-center">
+            <div className="badge-tittle"></div>
+            <h2>Trending on Tllid</h2>
           </div>
-          <div className="second-section-slider"></div>
+        </div>
+        
+        <div className="home-page-even-slide mt-4">
+          <div className="container">
+            <div className="slider-content">
+              <div className="badge">2hrs</div>
+              <div className="video-content">
+              <video controls>
+                <source src="../Video/1.mp4" type="video/mp4"></source>
+              </video>
+
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
