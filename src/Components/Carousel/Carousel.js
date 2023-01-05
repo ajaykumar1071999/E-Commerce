@@ -2,6 +2,7 @@ import "./Carousel.css";
 import backimg from "../Images/2.svg";
 import backimg1 from "../Images/3.svg";
 import backimg2 from "../Images/4.svg";
+import video from "../Video/1.mp4";
 
 function Carousel() {
   return (
@@ -9,10 +10,14 @@ function Carousel() {
       <section>
         <div className="d-flex justify-content-between relative">
           {/* first container */}
-          <div className="" style={{width: "60%", backgroundImage: `url(${backimg2})`,
+          <div
+            className=""
+            style={{
+              width: "60%",
+              backgroundImage: `url(${backimg2})`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
-              backgroundSize: "contain"
+              backgroundSize: "contain",
             }}
           >
             {/* first-sub-container */}
@@ -52,30 +57,79 @@ function Carousel() {
           <div
             style={{
               backgroundImage: `url(${backimg})`,
-              backgroundRepeat: "no-repeat"
+              backgroundRepeat: "no-repeat",
             }}
           ></div>
         </div>
-</section>
-        {/* Second Section */}
+      </section>
+      {/* Second Section */}
 
-        <section className="even-section">
+      <section className="even-section">
         <div className="container">
           <div className="heading-tittle d-flex align-items-center">
             <div className="badge-tittle"></div>
             <h2>Trending on Tllid</h2>
           </div>
         </div>
-        
+
         <div className="home-page-even-slide mt-4">
           <div className="container">
             <div className="slider-content">
-              <div className="badge">2hrs</div>
-              <div className="video-content">
-              <video controls>
-                <source src="../Video/1.mp4" type="video/mp4"></source>
-              </video>
+              <div className="badge-1">2hrs</div>
+              <div className="event-body">
+                <div className="d-flex">
+                  <div className="video-contain">
+                    <video controls>
+                      <source src={video} type="video/mp4"></source>
+                    </video>
+                  </div>
 
+                  <div className="event-details">
+                    <h5>Event Tittle not Url</h5>
+
+                    <div className="d-flex justify-content-between">
+                      <div>
+                        <div className="badge bg-warning">sasas</div>
+                      </div>
+                      <div>
+                        <div>
+                          Rating: 5{" "}
+                          <span style={{ fontSize: "20px" }}>&#9734;</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p>fghjkldfghjkl;sdfghjkl</p>
+                    <div className="event-btn">
+                      <button className="btn btn-primary">View Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="event-course">
+        <div className="container">
+          <div className="event-tag-text d-flex">
+            <h2 className="event-tag-text-1">
+              With you in every step of your journey
+            </h2>
+          </div>
+          <div className="event-card-tag d-flex">
+            <div className="col-md-4 mb-4">
+            <div className="tag-card">
+                <img src={backimg} />
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="tag-card">
+                <img src={backimg1} />
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+            <div className="tag-card">
+                <img src={backimg2} />
               </div>
             </div>
           </div>
