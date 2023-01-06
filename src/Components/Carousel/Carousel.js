@@ -3,6 +3,9 @@ import backimg from "../Images/2.svg";
 import backimg1 from "../Images/3.svg";
 import backimg2 from "../Images/4.svg";
 import video from "../Video/1.mp4";
+import firstimg from '../Images/first.png'
+import secondimg from '../Images/second.png'
+import thirdimg from '../Images/third.png'
 
 function Carousel() {
   return (
@@ -116,23 +119,36 @@ function Carousel() {
               With you in every step of your journey
             </h2>
           </div>
-          <div className="event-card-tag d-flex">
+          <div className="event-card-tag">
+          <div className="row">
+          <div className="col-md-4 mb-4">
+            <div className="tag-card">
+            <div className="tag-card-img">
+                <img src={firstimg} />
+                <h5>Try to Concive</h5>
+                </div>
+                
+              </div>
+            </div>
             <div className="col-md-4 mb-4">
             <div className="tag-card">
-                <img src={backimg} />
-              </div>
-            </div>
-            <div className="col-md-4 mb-4">
-              <div className="tag-card">
-                <img src={backimg1} />
+            <div className="tag-card-img">
+                <img src={secondimg} />
+                <h5>Pregnancy</h5>
+                </div> 
               </div>
             </div>
             <div className="col-md-4 mb-4">
             <div className="tag-card">
-                <img src={backimg2} />
+            <div className="tag-card-img">
+                <img src={thirdimg} />
+                <h5>Pregnancy</h5>
+                </div> 
               </div>
             </div>
+            
           </div>
+            </div>
         </div>
       </section>
     </>
