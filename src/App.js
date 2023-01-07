@@ -9,6 +9,7 @@ import Table from "./Components/Table/Table";
 import Footer from "./Components/Footer/Footer";
 import UserInfo from "./Components/UserInfo/UserInfo";
 import Carousel from "./Components/Carousel/Carousel";
+import CourseSection from "./Components/CourseSection/CourseSection";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/UserInfo" element={<UserInfo />}></Route>
         </Routes>
         <Carousel />
+        <CourseSection/>
 
         <Footer />
       </BrowserRouter>
