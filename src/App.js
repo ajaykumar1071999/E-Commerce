@@ -10,14 +10,15 @@ import Footer from "./Components/Footer/Footer";
 import UserInfo from "./Components/UserInfo/UserInfo";
 import Carousel from "./Components/Carousel/Carousel";
 import CourseSection from "./Components/CourseSection/CourseSection";
+import IntroTII from "./Components/IntroTII/IntroTII";
 
 export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Head />
+      <Head />
         <Routes>
-          <Route path="/Register" element={<Register />}></Route>
+          <Route path="/Home" element={<CourseSection/>}></Route>
           <Route path="/add" element={<AddProduct />}></Route>
           <Route path="/update" element={<UpdateProduct />}></Route>
           <Route path="/Login" element={<Login />}></Route>
@@ -26,9 +27,10 @@ export default function App() {
         </Routes>
         <Carousel />
         <CourseSection/>
+        <IntroTII/>
         
 
-        <Footer />
+        <Footer/>
       </BrowserRouter>
     </div>
   );

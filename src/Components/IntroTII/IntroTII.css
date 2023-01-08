@@ -1,0 +1,24 @@
+.demo-video-section{
+    margin-top: 80px;
+      
+}
+.video-heading{
+position: relative;    
+}
+
+.video-text{
+    border-bottom: solid #ef6696 5px;
+    padding-bottom: 10px;
+}
+.video-content{
+    margin-top: 50px;
+    height: 620px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px rgb(13 101 140 / 18%);
+}
+.video-content-intro{
+width: 100%;
+
+}
