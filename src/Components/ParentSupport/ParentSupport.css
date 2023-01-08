@@ -1,0 +1,56 @@
+.parent-support-section{
+    margin-top: 80px;
+}
+.parent-support-heading-text1{
+    font-size: 32px;
+    color: #005072;
+    font-weight: 700;
+}
+.parent-support-heading-ViewAll{
+    font-size: 20px;
+    color: #005072 ;
+    font-weight: 600;
+}
+.parent-support-heading-pera1
+{
+    color: #005072;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.parent-support-card{
+    margin-top: 50px;
+
+}
+.parent-support-card-container{
+    width: 100%;
+    position: relative;
+}
+.parent-support-card-1{
+    
+}
+.parent-support-card-content{
+    height: 150px;
+    padding: 10px 10px;
+    height: 100%;
+    border: solid #005072 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow:hidden;
+    box-sizing: border-box;
+}.parent-support-img{
+    width: 85px;
+    height: 85px;
+    margin: auto;
+}
+.parent-support-img img{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.parent-support-text{
+    font-size: 17px;
+    text-align: center;
+    color: #005072;
+    font-weight: 500;
+    margin: 0;
+}
