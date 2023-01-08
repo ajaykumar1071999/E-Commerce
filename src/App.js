@@ -26,6 +26,7 @@ export default function App() {
         </Routes>
         <Carousel />
         <CourseSection/>
+        
 
         <Footer />
       </BrowserRouter>

@@ -143,7 +143,6 @@ height: 100%;
     padding-bottom: 30px;
   }
   section .d-flex > div {
-    width: 100% !important;
     margin: 0px;
   }
   section > .d-flex > div:nth-child(2) {

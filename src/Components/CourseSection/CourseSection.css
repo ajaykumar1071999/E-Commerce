@@ -22,10 +22,10 @@
 }
 .heading-card{
     padding: 25px 0px;
+    box-sizing: border-box;
 }
 .course-card{
     width: 100%;
-    height: 300px;
     border: solid red 0px;
     border-radius: 10px;
     background-color: #fff;
@@ -49,7 +49,40 @@ width: 100%;
     color: #005270;
     margin-bottom: 0px;
 }
+.course-duration{
+    width: 10%;
+}
 .course-duration p{
     font-size: 10px;
     margin: 0px 0px 0px 0px;
+}
+.course-consultations{
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: black;
+}
+.course-price{
+    font-size: 15px;
+    font-weight: 700;
+    color: #005270;
+}
+.course-footer
+{
+    position: absolute;
+    bottom: 6px;
+    width: 92%;
+}
+.view-course{
+    text-align: center;
+}
+.view-course a{
+    background-color: #ef6696;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    cursor: all-scroll;
+
+    
 }
