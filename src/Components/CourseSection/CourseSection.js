@@ -1,5 +1,6 @@
 import "./CourseSection.css";
 import coursevideo from "../Video/2.mp4";
+import coursevideo1 from "../Video/1.mp4";
 function CourseSection() {
   return (
     <>
@@ -64,7 +65,7 @@ function CourseSection() {
                   <div className="course-card">
                     <div className="course-card-image">
                       <video
-                        src={coursevideo}
+                        src={coursevideo1}
                         controls="controls"
                         className="img-fluid"
                       ></video>
@@ -146,7 +147,7 @@ function CourseSection() {
                   <div className="course-card">
                     <div className="course-card-image">
                       <video
-                        src={coursevideo}
+                        src={coursevideo1}
                         controls="controls"
                         className="img-fluid"
                       ></video>
