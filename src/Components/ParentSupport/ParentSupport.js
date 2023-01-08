@@ -55,7 +55,7 @@ function ParentSupport() {
                    <div className="parent-support-img">
                     <img src={img3}/>
                    </div>
-                   <h5 className="parent-support-text">Paediatrician</h5>
+                   <h5 className="parent-support-text">Speech</h5>
                 </div>
                 </div>
                 <div className="col-6 col-md-2 mb-3">
@@ -63,7 +63,7 @@ function ParentSupport() {
                    <div className="parent-support-img">
                     <img src={img4}/>
                    </div>
-                   <h5 className="parent-support-text">Paediatrician</h5>
+                   <h5 className="parent-support-text">Diet & Nutration</h5>
                 </div>
                 </div>
                 <div className="col-6 col-md-2 mb-3">
@@ -71,7 +71,7 @@ function ParentSupport() {
                    <div className="parent-support-img">
                     <img src={img5}/>
                    </div>
-                   <h5 className="parent-support-text">Paediatrician</h5>
+                   <h5 className="parent-support-text">Mental Health</h5>
                 </div>
                 </div>
                 <div className="col-6 col-md-2 mb-3">
@@ -79,7 +79,7 @@ function ParentSupport() {
                    <div className="parent-support-img">
                     <img src={img6}/>
                    </div>
-                   <h5 className="parent-support-text">Paediatrician</h5>
+                   <h5 className="parent-support-text">Fertility & Pregnancy</h5>
                 </div>
                 </div>
                 <div className="col-6 col-md-2 mb-3">
@@ -87,7 +87,7 @@ function ParentSupport() {
                    <div className="parent-support-img">
                     <img src={img7}/>
                    </div>
-                   <h5 className="parent-support-text">Paediatrician</h5>
+                   <h5 className="parent-support-text">Occupational Therapy</h5>
                 </div>
                 </div>
                 <div className="col-6 col-md-2 mb-3">
@@ -95,7 +95,7 @@ function ParentSupport() {
                    <div className="parent-support-img">
                     <img src={img8}/>
                    </div>
-                   <h5 className="parent-support-text">Paediatrician</h5>
+                   <h5 className="parent-support-text">Lactation & Breastfeeding</h5>
                 </div>
                 </div>
                 <div className="col-6 col-md-2 mb-3">
@@ -103,7 +103,7 @@ function ParentSupport() {
                    <div className="parent-support-img">
                     <img src={img9}/>
                    </div>
-                   <h5 className="parent-support-text">Paediatrician</h5>
+                   <h5 className="parent-support-text">Special Needs & Disabilities</h5>
                 </div>
                 </div>
                 <div className="col-6 col-md-2 mb-3">
@@ -111,7 +111,7 @@ function ParentSupport() {
                    <div className="parent-support-img">
                     <img src={img10}/>
                    </div>
-                   <h5 className="parent-support-text">Paediatrician</h5>
+                   <h5 className="parent-support-text">Early Childhood Development</h5>
                 </div>
                 </div>
                 
