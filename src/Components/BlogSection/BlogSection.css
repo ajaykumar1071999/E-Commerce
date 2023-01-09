@@ -1,0 +1,26 @@
+.blog-section{
+    margin-top: 80px;
+    background-color: #e1f3fb;
+}
+.blog-section-heading{
+    padding: 50px 0px 10px 0px;
+
+}
+.section-head-1{
+    font-size: 20px;
+    color: #005270;;
+}
+.section-viewAll{
+    font-size: 23px;
+    color: #005270;
+    font-weight: 600;
+}
+.section-head-2{
+    font-size: 30px;
+    color: #005270;
+    font-weight: 600;
+}
+.blog-section-card{
+    margin-top: 20px;
+
+}
