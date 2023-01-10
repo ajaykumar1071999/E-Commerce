@@ -13,6 +13,7 @@ import CourseSection from "./Components/CourseSection/CourseSection";
 import IntroTII from "./Components/IntroTII/IntroTII";
 import ParentSupport from "./Components/ParentSupport/ParentSupport";
 import BlogSection from "./Components/BlogSection/BlogSection";
+import ConsultationSection from "./Components/ConsultationSection/ConsultationSection";
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
         <IntroTII/>
         <ParentSupport/>
         <BlogSection/>
+        <ConsultationSection/>
         
 
         <Footer/>
