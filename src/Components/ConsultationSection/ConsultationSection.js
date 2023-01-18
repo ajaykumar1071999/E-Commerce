@@ -1,5 +1,8 @@
 import "./ConsultationSection.css";
 import conimg1 from "../Images/consultation-img-1.jpg";
+import conimg2 from "../Images/consultation-img-2.jpeg";
+import conimg3 from "../Images/consultation-img-3.jpg";
+import conimg4 from "../Images/consultation-img-4.png";
 
 function ConsultationSection() {
   return (
@@ -60,7 +63,7 @@ function ConsultationSection() {
                 <div className="col-md-3">
                   <div className="course-card">
                     <div className="course-card-image">
-                    <img className="img-fluid" src={conimg1}/>
+                    <img className="img-fluid" src={conimg2}/>
                     </div>
                     <div className="course-details">
                       <div className="d-flex justify-content-between">
@@ -97,7 +100,7 @@ function ConsultationSection() {
                 <div className="col-md-3">
                   <div className="course-card">
                     <div className="course-card-image">
-                    <img className="img-fluid" src={conimg1}/>
+                    <img className="img-fluid" src={conimg3}/>
                     </div>
                     <div className="course-details">
                       <div className="d-flex justify-content-between">
@@ -134,7 +137,7 @@ function ConsultationSection() {
                 <div className="col-md-3">
                   <div className="course-card">
                     <div className="course-card-image">
-                    <img className="img-fluid" src={conimg1}/>
+                    <img className="img-fluid" src={conimg4}/>
                     </div>
                     <div className="course-details">
                       <div className="d-flex justify-content-between">
