@@ -24,103 +24,85 @@ function BlogSection() {
           <div className="blog-section-card">
             <div className="row">
               <div className="col-md-3">
-              <div className="blog-section-card-1">
-              <div className="blog-video-1">
-                <video src={blogvideo} controls></video>
-              </div>
-              <div className="blog-details">
-                <div className="d-flex justify-content-between">
-                  <div className="blog-badge">
-                    <span>Early Years</span>
-                  </div>
-                  <div className="blog-badge"></div>
-                </div>
-                <div className="blog-tittle">
-                  <h6>Managing Children with Autism Spectrum Conditions</h6>
-                </div>
-              </div>
-              <div className="blog-footer">
-                <div className="view-blog">
-                <a href="#">View All</a>
-              
-                </div>
-              </div>
-              </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                {/* <div className="blog-section-card-1">
-                  <div className="card-1-video">
-                    <video
-                      src={blogvideo}
-                      controls="control"
-                    ></video>
-                  </div>
-                  <div className="container">
-                    <div className="blog-content">
-                      <p className="blog-content-para">Early Years</p>
-                    </div>
-                    <div className="blog-content-heading">
-                      <h6>Managing Children with Autism Spectrum Conditions</h6>
-                    </div>
-                    <div className="view-blog">View Blog</div>
-                  </div>
-                </div> */}
-              </div>
-
-
-              {/* <div className="col-md-3">
                 <div className="blog-section-card-1">
-                  <div className="card-1-video">
-                    <video
-                      src={blogvideo}
-                      controls="control"
-                    ></video>
+                  <div className="blog-video-1">
+                    <video src={blogvideo} controls></video>
                   </div>
-                  <div className="container">
-                    <div className="blog-content">
-                      <p className="blog-content-para">Early Years</p>
+                  <div className="blog-details">
+                    <div className="d-flex justify-content-between">
+                      <div className="blog-badge">
+                        <span>Early Years</span>
+                      </div>
+                      <div className="blog-badge"></div>
                     </div>
-                    <div className="blog-content-heading">
+                    <div className="blog-tittle">
                       <h6>Managing Children with Autism Spectrum Conditions</h6>
                     </div>
-                    <div className="view-blog">View Blog</div>
+                  </div>
+                  <div className="blog-footer">
+                    <div className="view-blog">
+                      <a href="#">View All</a>
+                    </div>
                   </div>
                 </div>
               </div>
+
+
+
               <div className="col-md-3">
                 <div className="blog-section-card-1">
-                  <div className="card-1-video">
-                    <video
-                      src={blogvideo}
-                      controls="control"
-                    ></video>
+                  <div className="blog-video-1">
+                    <video src={blogvideo} controls></video>
                   </div>
-                  <div className="container">
-                    <div className="blog-content">
-                      <p className="blog-content-para">Early Years</p>
+                  <div className="blog-details">
+                    <div className="d-flex justify-content-between">
+                      <div className="blog-badge">
+                        <span>Early Years</span>
+                      </div>
+                      <div className="blog-badge"></div>
                     </div>
-                    <div className="blog-content-heading">
+                    <div className="blog-tittle">
                       <h6>Managing Children with Autism Spectrum Conditions</h6>
                     </div>
-                    <div className="view-blog">View Blog</div>
+                  </div>
+                  <div className="blog-footer">
+                    <div className="view-blog">
+                      <a href="#">View All</a>
+                    </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
+
+
+
+
+              <div className="col-md-3">
+                <div className="blog-section-card-1">
+                  <div className="blog-video-1">
+                    <video src={blogvideo} controls></video>
+                  </div>
+                  <div className="blog-details">
+                    <div className="d-flex justify-content-between">
+                      <div className="blog-badge">
+                        <span>Early Years</span>
+                      </div>
+                      <div className="blog-badge"></div>
+                    </div>
+                    <div className="blog-tittle">
+                      <h6>Managing Children with Autism Spectrum Conditions</h6>
+                    </div>
+                  </div>
+                  <div className="blog-footer">
+                    <div className="view-blog">
+                      <a href="#">View All</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+
+          
         </div>
       </section>
     </>
