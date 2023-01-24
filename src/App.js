@@ -14,6 +14,8 @@ import IntroTII from "./Components/IntroTII/IntroTII";
 import ParentSupport from "./Components/ParentSupport/ParentSupport";
 import BlogSection from "./Components/BlogSection/BlogSection";
 import ConsultationSection from "./Components/ConsultationSection/ConsultationSection";
+import TestimonialSection from "./Components/TestimonialSection/TestimonialSection";
+import JoinUs from "./Components/JoinUs/JoinUs";
 
 export default function App() {
   return (
@@ -34,6 +36,8 @@ export default function App() {
         <ParentSupport/>
         <BlogSection/>
         <ConsultationSection/>
+        <TestimonialSection/>
+        <JoinUs/>
         
 
         <Footer/>

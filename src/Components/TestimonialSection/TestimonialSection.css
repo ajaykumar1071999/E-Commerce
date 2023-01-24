@@ -1,0 +1,42 @@
+section{
+    margin-top: 80px;
+}
+.heading h1{
+    color: #005072;
+    font-size: 32px;
+    font-weight: 700;
+}
+.slider{
+    margin-top: 30px;
+    background-color: #e1f3fb;
+    border-radius: 10px;  
+}
+.slider-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    width: 100%;
+}
+@media only screen and (max-width:600px){
+    .slider-content{
+        display:block;
+        text-align:center;
+    }
+}
+.slider-img{
+    width: 100%;
+}
+.slider-img img{
+    width: 160px;
+    height: 160px;
+}
+.slider-img-content p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.slider-img-content-author p{
+    text-align: center;
+    margin-top: 0px;
+}
