@@ -16,7 +16,7 @@ function Footer() {
                 {/* footer input box */}
                 <form>
                   <div className="footer-subscription">
-                    <input type="email" placeholder="Enter email address" />
+                    <input type="email" placeholder="Enter your email address" />
                     <button>Join now</button>
                   </div>
                 </form>

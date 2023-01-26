@@ -2,7 +2,7 @@ import './TestimonialSection.css';
 import sliderimg from '../Images/testimonial-1.png'
 function TestimonialSection(){
     return (<>
-        <section>
+        <section className='testimonial-section'>
             <div className='container'>
                 <div className='heading'>
                     <h1>This is what parents are saying about Tllid</h1>

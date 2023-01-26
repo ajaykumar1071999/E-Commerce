@@ -33,3 +33,12 @@ img {
   height: 10vh;
   width: 100%;
 }
+
+.header-section{
+  margin-top: 0px;
+}
+.header-section header{
+width: 100%;
+border: solid red 1px;
+background-color: aqua;
+}
